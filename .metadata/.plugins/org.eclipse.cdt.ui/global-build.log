@@ -1,0 +1,642 @@
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+Finished building: "../NVIC.c"
+ 
+Building file: "../SysTick.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "../SysTick.c"
+Finished building: "../SysTick.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+ 
+ undefined first referenced                                                                                                            
+  symbol       in file                                                                                                                 
+ --------- ----------------                                                                                                            
+ main      C:\Code_Composer_CCS\ccs1281\ccs\tools\compiler\ti-cgt-arm_20.2.7.LTS\lib\rtsv7M4_T_le_v4SPD16_eabi.lib<boot_cortex_m.c.obj>
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "SysTick_NVIC_Drivers.out" not built
+ 
+>> Compilation failure
+makefile:137: recipe for target 'SysTick_NVIC_Drivers.out' failed
+gmake[1]: *** [SysTick_NVIC_Drivers.out] Error 1
+makefile:133: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+Finished building: "../NVIC.c"
+ 
+Building file: "../SysTick.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "../SysTick.c"
+Finished building: "../SysTick.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+ 
+ undefined first referenced                                                                                                            
+  symbol       in file                                                                                                                 
+ --------- ----------------                                                                                                            
+ main      C:\Code_Composer_CCS\ccs1281\ccs\tools\compiler\ti-cgt-arm_20.2.7.LTS\lib\rtsv7M4_T_le_v4SPD16_eabi.lib<boot_cortex_m.c.obj>
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "SysTick_NVIC_Drivers.out" not built
+ 
+>> Compilation failure
+makefile:137: recipe for target 'SysTick_NVIC_Drivers.out' failed
+makefile:133: recipe for target 'all' failed
+gmake[1]: *** [SysTick_NVIC_Drivers.out] Error 1
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 clean -O 
+ 
+DEL /F  "SysTick_NVIC_Drivers.out" 
+DEL /F "NVIC.obj" "SysTick.obj" "tm4c123gh6pm_startup_ccs.obj" 
+DEL /F "NVIC.d" "SysTick.d" "tm4c123gh6pm_startup_ccs.d" 
+Could Not Find D:\Courses\Embedded Systems (Mohammed Tarek)\2_Advanced Diploma\1.ARM Architecture\7_Project\SysTick_NVIC_Driver\SysTick_NVIC_Drivers\Debug\SysTick_NVIC_Drivers.out
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+Finished building: "../NVIC.c"
+ 
+Building file: "../SysTick.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "../SysTick.c"
+Finished building: "../SysTick.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+ 
+ undefined first referenced                                                                                                            
+  symbol       in file                                                                                                                 
+ --------- ----------------                                                                                                            
+ main      C:\Code_Composer_CCS\ccs1281\ccs\tools\compiler\ti-cgt-arm_20.2.7.LTS\lib\rtsv7M4_T_le_v4SPD16_eabi.lib<boot_cortex_m.c.obj>
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "SysTick_NVIC_Drivers.out" not built
+ 
+>> Compilation failure
+makefile:137: recipe for target 'SysTick_NVIC_Drivers.out' failed
+gmake[1]: *** [SysTick_NVIC_Drivers.out] Error 1
+makefile:133: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "SysTick_NVIC_Drivers.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+"../NVIC.c", line 3: warning #179-D: variable "g_callBackPtr" was declared but never referenced
+Finished building: "../NVIC.c"
+ 
+Building file: "../SysTick.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "../SysTick.c"
+Finished building: "../SysTick.c"
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "SysTick_NVIC_Drivers.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../SysTick.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "../SysTick.c"
+Finished building: "../SysTick.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "SysTick_NVIC_Drivers.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+Finished building: "../NVIC.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "SysTick_NVIC_Drivers.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+"../NVIC.c", line 8: warning #179-D: variable "g_callBackPtr" was declared but never referenced
+Finished building: "../NVIC.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "SysTick_NVIC_Drivers.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'SysTick_NVIC_Drivers.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'SysTick_NVIC_Drivers.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'SysTick_NVIC_Drivers.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'SysTick_NVIC_Drivers.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 clean -O 
+ 
+DEL /F  "SysTick_NVIC_Drivers.out" 
+DEL /F "NVIC.obj" "SysTick.obj" "main.obj" "tm4c123gh6pm_startup_ccs.obj" 
+DEL /F "NVIC.d" "SysTick.d" "main.d" "tm4c123gh6pm_startup_ccs.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+"../NVIC.c", line 8: warning #179-D: variable "g_callBackPtr" was declared but never referenced
+Finished building: "../NVIC.c"
+ 
+Building file: "../SysTick.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "../SysTick.c"
+Finished building: "../SysTick.c"
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "SysTick_NVIC_Drivers.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+Finished building: "../NVIC.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "SysTick_NVIC_Drivers.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'NVIC.obj' failed
+"../NVIC.c", line 24: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 58: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 97: error #20: identifier "NUL_PTR" is undefined
+"../NVIC.c", line 100: error #256: type name is not allowed
+"../NVIC.c", line 100: error #66: expected a ";"
+"../NVIC.c", line 100: error #20: identifier "i" is undefined
+"../NVIC.c", line 109: warning #515-D: a value of type "volatile uint32 *" cannot be assigned to an entity of type "uint32 *"
+4 errors detected in the compilation of "../NVIC.c".
+gmake: *** [NVIC.obj] Error 1
+Building file: "../SysTick.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "../SysTick.c"
+Finished building: "../SysTick.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'NVIC.obj' failed
+"../NVIC.c", line 24: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 58: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 97: error #20: identifier "NUL_PTR" is undefined
+"../NVIC.c", line 100: error #256: type name is not allowed
+"../NVIC.c", line 100: error #66: expected a ";"
+"../NVIC.c", line 100: error #20: identifier "i" is undefined
+"../NVIC.c", line 109: warning #515-D: a value of type "volatile uint32 *" cannot be assigned to an entity of type "uint32 *"
+4 errors detected in the compilation of "../NVIC.c".
+gmake: *** [NVIC.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 clean -O 
+ 
+DEL /F  "SysTick_NVIC_Drivers.out" 
+DEL /F "NVIC.obj" "SysTick.obj" "main.obj" "tm4c123gh6pm_startup_ccs.obj" 
+DEL /F "NVIC.d" "SysTick.d" "main.d" "tm4c123gh6pm_startup_ccs.d" 
+Could Not Find D:\Courses\Embedded Systems (Mohammed Tarek)\2_Advanced Diploma\1.ARM Architecture\7_Project\SysTick_NVIC_Driver\SysTick_NVIC_Drivers\Debug\SysTick_NVIC_Drivers.out
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'NVIC.obj' failed
+"../NVIC.c", line 24: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 58: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 97: error #20: identifier "NUL_PTR" is undefined
+"../NVIC.c", line 100: error #256: type name is not allowed
+"../NVIC.c", line 100: error #66: expected a ";"
+"../NVIC.c", line 100: error #20: identifier "i" is undefined
+"../NVIC.c", line 109: warning #515-D: a value of type "volatile uint32 *" cannot be assigned to an entity of type "uint32 *"
+4 errors detected in the compilation of "../NVIC.c".
+gmake: *** [NVIC.obj] Error 1
+Building file: "../SysTick.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "../SysTick.c"
+Finished building: "../SysTick.c"
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'NVIC.obj' failed
+"../NVIC.c", line 24: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 58: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 97: error #20: identifier "NUL_PTR" is undefined
+"../NVIC.c", line 100: error #256: type name is not allowed
+"../NVIC.c", line 100: error #66: expected a ";"
+"../NVIC.c", line 100: error #20: identifier "i" is undefined
+"../NVIC.c", line 109: warning #515-D: a value of type "volatile uint32 *" cannot be assigned to an entity of type "uint32 *"
+4 errors detected in the compilation of "../NVIC.c".
+gmake: *** [NVIC.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'NVIC.obj' failed
+"../NVIC.c", line 24: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 58: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 97: error #20: identifier "NUL_PTR" is undefined
+"../NVIC.c", line 100: error #256: type name is not allowed
+"../NVIC.c", line 100: error #66: expected a ";"
+"../NVIC.c", line 100: error #20: identifier "i" is undefined
+"../NVIC.c", line 109: warning #515-D: a value of type "volatile uint32 *" cannot be assigned to an entity of type "uint32 *"
+4 errors detected in the compilation of "../NVIC.c".
+gmake: *** [NVIC.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'NVIC.obj' failed
+"../NVIC.c", line 24: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 58: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 98: error #20: identifier "NUL_PTR" is undefined
+"../NVIC.c", line 110: warning #515-D: a value of type "volatile uint32 *" cannot be assigned to an entity of type "uint32 *"
+1 error detected in the compilation of "../NVIC.c".
+gmake: *** [NVIC.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+"../NVIC.c", line 24: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 58: warning #188-D: pointless comparison of unsigned integer with zero
+"../NVIC.c", line 110: warning #515-D: a value of type "volatile uint32 *" cannot be assigned to an entity of type "uint32 *"
+Finished building: "../NVIC.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "SysTick_NVIC_Drivers.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'SysTick_NVIC_Drivers.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'SysTick_NVIC_Drivers.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'SysTick_NVIC_Drivers.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'SysTick_NVIC_Drivers.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+"../NVIC.c", line 110: warning #515-D: a value of type "volatile uint32 *" cannot be assigned to an entity of type "uint32 *"
+Finished building: "../NVIC.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "SysTick_NVIC_Drivers.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'NVIC.obj' failed
+"../NVIC.c", line 110: error #66: expected a ";"
+1 error detected in the compilation of "../NVIC.c".
+gmake: *** [NVIC.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'NVIC.obj' failed
+"../NVIC.c", line 110: error #66: expected a ";"
+1 error detected in the compilation of "../NVIC.c".
+gmake: *** [NVIC.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+"../NVIC.c", line 110: warning #515-D: a value of type "volatile uint32 *" cannot be assigned to an entity of type "uint32 *"
+Finished building: "../NVIC.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "SysTick_NVIC_Drivers.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SysTick_NVIC_Drivers ****
+
+"C:\\Code_Composer_CCS\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../NVIC.c"
+Invoking: Arm Compiler
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Courses/Embedded Systems (Mohammed Tarek)/2_Advanced Diploma/1.ARM Architecture/7_Project/SysTick_NVIC_Driver/SysTick_NVIC_Drivers" --include_path="C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="NVIC.d_raw"  "../NVIC.c"
+Finished building: "../NVIC.c"
+ 
+Building target: "SysTick_NVIC_Drivers.out"
+Invoking: Arm Linker
+"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"SysTick_NVIC_Drivers.map" --heap_size=0 --stack_size=512 -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/Code_Composer_CCS/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SysTick_NVIC_Drivers_linkInfo.xml" --rom_model -o "SysTick_NVIC_Drivers.out" "./NVIC.obj" "./SysTick.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "SysTick_NVIC_Drivers.out"
+ 
+
+**** Build Finished ****

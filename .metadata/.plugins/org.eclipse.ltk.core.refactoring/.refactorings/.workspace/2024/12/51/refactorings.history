@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;SysTick_NVIC_Drivers/pwm_timer0.c&apos;" deleteContents="false" description="Delete resource &apos;SysTick_NVIC_Drivers/pwm_timer0.c&apos;" element1="/SysTick_NVIC_Drivers/pwm_timer0.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1734788577974"/>
+</session>
